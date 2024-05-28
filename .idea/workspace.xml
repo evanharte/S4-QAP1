@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85666119-959c-4dbc-a419-bcf4aa8780a1" name="Changes" comment="need to take out mockito and start assertions">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/SuggestionEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/SuggestionsDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/SuggestionEngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/SuggestionEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/SuggestionEngineTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "evanharte"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/evanharte/s4-qap1.git",
+    "accountId": "1bca4de8-95c1-483d-8bd5-7c6980ae9e86"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -46,8 +48,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.SuggestionEngine.executor": "Run",
     "JUnit.SuggestionEngineTest.executor": "Run",
+    "JUnit.SuggestionEngineTest.testCorrectResourcePath.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testDidgeridooClassDoesNotExist.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testDidgeridooFileDoesNotExist.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testEmployeeFileExists.executor": "Debug",
     "JUnit.SuggestionEngineTest.testGenerateSuggestions.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestionsFail.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testGetWordSuggestionDB.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testResourceLoadsProperly.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testSetWordSuggestionDBisNull.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testTestTest.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testTwoSeparateSuggestions.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -56,8 +69,8 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SuggestionEngineTest.testGenerateSuggestionsFail">
-    <configuration name="SuggestionEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SuggestionEngineTest.testDidgeridooClassDoesNotExist">
+    <configuration name="SuggestionEngineTest.testCorrectResourcePath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="s4-qap1" />
       <extension name="coverage">
         <pattern>
@@ -67,28 +80,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.keyin" />
       <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuggestionEngineTest.testGenerateSuggestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="s4-qap1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.keyin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.keyin" />
-      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
-      <option name="METHOD_NAME" value="testGenerateSuggestions" />
+      <option name="METHOD_NAME" value="testCorrectResourcePath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuggestionEngineTest.testGenerateSuggestionsFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SuggestionEngineTest.testDidgeridooClassDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="s4-qap1" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +96,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.keyin" />
       <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
-      <option name="METHOD_NAME" value="testGenerateSuggestionsFail" />
+      <option name="METHOD_NAME" value="testDidgeridooClassDoesNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testDidgeridooFileDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s4-qap1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testDidgeridooFileDoesNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testEmployeeFileExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s4-qap1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testEmployeeFileExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testResourceLoadsProperly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="s4-qap1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testResourceLoadsProperly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,9 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestionsFail" />
-        <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestions" />
-        <item itemvalue="JUnit.SuggestionEngineTest" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testDidgeridooClassDoesNotExist" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testDidgeridooFileDoesNotExist" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testEmployeeFileExists" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testCorrectResourcePath" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testResourceLoadsProperly" />
       </list>
     </recent_temporary>
   </component>
